@@ -1,0 +1,7 @@
+.DS_Store
+.idea/
+src/articles/**
+src/results/**
+src/text-extraction/**
+
+venv/
