@@ -2,7 +2,7 @@
 
 
 Algorithm created to  analys a pdf text and recognize the main terms discussed within the text, helping the user to get an idea of the main points addressed.
-> I'm still working in this project and it need to have its accuracy
+> I'm still working on this project and it needs to have its accuracy
 > improved
 
 ### Libs used:
