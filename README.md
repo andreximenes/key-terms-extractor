@@ -20,7 +20,7 @@ Algorithm created to  analys a pdf text and recognize the main terms discussed w
  
 ### How to test the algoritm:
 
-The algorithm checks all pdv files inside the **src/articles** directory, extracts the text into a text file with the same name and stores it in the **src/text-extraction** directory and finally analyzes and saves the result in a CSV file within the **src/results** directory.
+The algorithm checks all pdf files inside the **src/articles** directory, extracts the text into a text file with the same name and stores it in the **src/text-extraction** directory and finally analyzes and saves the result in a CSV file within the **src/results** directory.
 If these directories do not exist, you must create them
 
 ## Future goals and improvements
