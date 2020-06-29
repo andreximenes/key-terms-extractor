@@ -15,7 +15,7 @@ Algorithm created to  analys a pdf text and recognize the main terms discussed w
 ### How to install all dependencies:
 
  1. Run **pip install** to install all dependencies into requeriments.txt
- 2. Run **python spacy download en_core_web_sm** to install spacy dependency
+ 2. Run **python spacy download en_core_web_sm** or **python -m spacy download en** to install spacy language dependency
 
  
 ### How to test the algoritm:

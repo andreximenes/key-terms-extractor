@@ -3,7 +3,7 @@ import glob
 import spacy
 import pytextrank
 import en_core_web_sm
-import pt_core_news_sm
+#import pt_core_news_sm
 from collections import defaultdict
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.converter import TextConverter
@@ -65,7 +65,7 @@ def extract_keyterms():
 
         print('process finished, the result is in the ' + final_result_name + ' file')
         df = pd.DataFrame(dictFinal)
-        df.sort_values(by=['rank'], ascending=False, inplace=True)
+        df.sort_values(by=['rank', 'count'], ascending=False, inplace=True)
         df.to_csv(final_result_name)
         #print(df)
 
