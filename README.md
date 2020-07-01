@@ -25,7 +25,7 @@ If these directories do not exist, you must create them
 
 ## Future goals and improvements
 
- - Improve the accuracy of the algorithm
+ - Improve the algorithm accuracy
  - Transform the project into a web application
  - Add new related features
 
